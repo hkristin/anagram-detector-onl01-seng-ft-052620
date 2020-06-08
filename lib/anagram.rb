@@ -9,9 +9,10 @@ class Anagram
   
   def self.match(array)
     array.each do |word|
-    end
-    if word.sort == @word.sort
+      if word.sort == @word.sort
       true
+    end
+
   else
     return []
   end
