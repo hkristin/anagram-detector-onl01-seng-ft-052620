@@ -14,8 +14,5 @@ class Anagram
       end
     end
     return []
-  else
-    return []
-  end
   end
 end
