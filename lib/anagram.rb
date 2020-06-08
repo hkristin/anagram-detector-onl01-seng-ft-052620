@@ -12,9 +12,7 @@ class Anagram
   def match(array)
     matches = []
     array.each do |word|
-      if word.chars.sort.join == @word.chars.sort.join
-        matches << word
-      end
+      word.chars.sort.join == @word.chars.sort.join ? matches << word : next
     end
     matches
   end
