@@ -10,12 +10,13 @@ class Anagram
   end
   
   def match(array)
+    matches = []
     array.each do |word|
       if word.chars.sort.join == @word.chars.sort.join
         binding.pry
-        true
+        matches << word
       end
     end
-    []
+    matches
   end
 end
