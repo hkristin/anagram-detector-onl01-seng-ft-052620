@@ -11,6 +11,7 @@ class Anagram
     array.each do |word|
     end
     if word.sort == @word.sort
+      true
   else
     return []
   end
