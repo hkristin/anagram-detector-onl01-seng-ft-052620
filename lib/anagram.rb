@@ -16,6 +16,6 @@ class Anagram
         true
       end
     end
-    return []
+    []
   end
 end
