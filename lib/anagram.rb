@@ -13,7 +13,6 @@ class Anagram
     matches = []
     array.each do |word|
       if word.chars.sort.join == @word.chars.sort.join
-        binding.pry
         matches << word
       end
     end
